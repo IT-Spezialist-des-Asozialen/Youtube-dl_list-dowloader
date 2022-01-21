@@ -17,5 +17,6 @@ print("All videos were safed in the default folder.")
 numbersLinks=len(links)
 i=0
 while i <numbersLinks:
-    os.system(path+ links[i]+folders[i])
+    #os.system(path+ links[i]+folders[i])
+    os.system(path+ links[i])
     i+=1
