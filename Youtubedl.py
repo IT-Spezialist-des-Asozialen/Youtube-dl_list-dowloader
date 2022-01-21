@@ -1,4 +1,5 @@
 import os
+path='./youtube-dl/youtube-dl '#this is the path where youtube-dl is safed
 i=0
 links=[]
 folder=""
@@ -15,5 +16,5 @@ print("All videos were safed in the respective folder.")
 numbersLinks=len(links)
 i=0
 while i <numbersLinks:
-    os.system('./youtube-dl/youtube-dl '+ links[i]+folders[i])
+    os.system(path+ links[i]+folders[i])
     i+=1
